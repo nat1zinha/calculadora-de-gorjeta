@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --purple-100: #f1cff8;
+    --purple-200: #d8b8eb;
+    --purple-300: #cb88e6;
+    --purple-400: #c86adb;
+    --purple-500: #bf42ca;
+    --purple-600: #a81eb4;
+    --purple-700: #8b11a3;
+    --purple-800: #610579;
+    --light-purple: #e40ae4;
+    --white: #ffffff;
+}
+
+body{
+    background-color: var(--purple-200);
+}
+
+header{
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    padding-block: 2.8rem;
+
+}
