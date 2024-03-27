@@ -5,7 +5,7 @@
     font-family: "Space Mono", serif;
 }
 
-:root{
+:root {
     --purple-100: #f1cff8;
     --purple-200: #d8b8eb;
     --purple-300: #cb88e6;
@@ -18,34 +18,36 @@
     --white: #ffffff;
 }
 
-body{
+body {
     background-color: var(--purple-200);
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     padding-block: 2.8rem;
 }
 
-main{
+main {
     background-color: var(--white);
     padding: 2rem;
 
 }
 
 .conta,
-.gorjeta{
+.gorjeta {
     margin-bottom: 2rem;
 }
 
 .conta label,
-.gorjeta label{
+.gorjeta label,
+.pessoas label{
     color: var(--purple-500);
     font-weight: 700;
 }
 
-.conta div{
+.conta div,
+.pessoas div {
     border: 1px solid #240331;
     margin-top: 0.4rem;
     background-color: var(--purple-100);
@@ -57,7 +59,7 @@ main{
 
 }
 
-.conta input{
+.conta input {
     border:none;
     text-align: right;
     width: 100px;
@@ -68,14 +70,15 @@ main{
     outline: none;
 }
 
-.conta inpput::placeholder{
+.conta inpput::placeholder
+.pessoas inpput::placeholder{
     color: var(--purple-300);
 }
 
-.conta:has(input:focus) div{
+.conta:has(input:focus) div,
+.pessoas:has(input:focus) div {
     outline: 2px solid var(--light-purple);
 }
-
 
 .gorjeta div {
     margin-top: 1rem;
@@ -97,12 +100,16 @@ main{
     color: var(--white);
 }
 
-.gorjeta #outra{
+.gorjeta #outra {
     width: 100%;
     background-color: var(--purple-100);
     color: var(--purple-800);
 }
 
-.gorjeta #outra::placeholder{
+.gorjeta #outra::placeholder {
     color: var(--purple-300);
+} 
+
+.pessoas #erro{
+    display: none;
 }
