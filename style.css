@@ -124,7 +124,6 @@ main {
 }
 
 .resultados div{
-    border: 1px solid rebeccapurple;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,4 +146,20 @@ main {
 
 .resultados .gorjeta-total{
     margin-bottom: 1.25rem;
+}
+
+.resultados .total{
+    margin-bottom: 2rem;
+}
+
+.resultados button{
+    width: 100%;
+    background-color: var(--light-purple);
+    border: none;
+    border-radius: 0.3125rem;
+    color: var(--purple-800);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    padding-block: 0.5rem;
 }
