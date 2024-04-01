@@ -7,16 +7,16 @@
 
 :root {
     --purple-100: #f1cff8;
-    --purple-200: #d8b8eb;
+    --purple-200: #c89ce2;
     --purple-300: #cb88e6;
     --purple-400: #c86adb;
     --purple-500: #bf42ca;
-    --purple-600: #a81eb4;
+    --purple-600: #93189e;
     --purple-700: #8b11a3;
-    --purple-800: #610579;
-    --light-purple: #e40ae4;
-    --white: #ffffff;
-    --purple-hover: #6c4b91;
+    --purple-800: #40054e;
+    --light-purple: #994a99;
+    --white: #fcf7fc;
+    --purple-hover: #7645ad;
     --danger: #e17457;
 } 
 
@@ -34,8 +34,6 @@ main {
     background-color: var(--white);
     padding: 2rem;
     border-radius: 1.5625rem 1.5625rem 0 0;
-
-
 }
 
 .conta,
